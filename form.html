@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form class="form" enctype="multipart/form-data" method="post">
+        <img class="close" src="img/close.svg" alt="">
+        <p class="form_text">Успех начинается с правильных решений. Оставьте здесь свои контакты, и мы свяжемся с вами,
+            чтобы предложить оптимальную технологию по увеличению процента извлекаемости полезного в конечный продукт на
+            вашем предприятии.</p>
+        <input class=" inputa inputss" placeholder="Имя*" type="text" required="required">
+        <input class=" inputa inputss" placeholder="E-mail*" type="text" required="required">
+        <input class=" inputa inputss" placeholder="Телефон*" type="text" required="required">
+        <input class=" inputa inputss" placeholder="Описание проекта*" type="text" required="required">
+        <label class="input inputs" for="files" class="btn" id="total">Приложить файлы (до трех файлов)</label>
+        <input class="inputa inputs fill" id="files" style="display:none;" type="file" name="files[]" multiple
+            required="required" accept=".jpg,.png">
+        <div>
+            <p class="form_polit">Отправляя эту форму, я принимаю этого
+                <a href="https://for-ma.studio/privacy-policy">
+                    политика конфиденциальности
+                </a>
+                сайта.
+            </p>
+            <button class="zayv_button zayv_paller">
+                <!-- <div class=" disabled  "></div> -->
+                <p>отправить</p>
+            </button>
+        </div>
+    </form>
+    <div class="pandoge com"></div>
+
+    <script>
+
+        if ($(".pandoge").hasClass("com")) {
+
+            alert("У элемента есть класс com!");
+
+            // Здесь может быть любой другой ваш код
+
+        }
+
+    </script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
