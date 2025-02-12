@@ -749,13 +749,10 @@ button {
   line-height: 21px;
   color: #614D49;
   text-transform: none;
-  flex-flow: row nowrap;
   display: flex;
 }
 
 .form_polit a {
-
-
   border-bottom: 1px solid #614D49;
 }
 
