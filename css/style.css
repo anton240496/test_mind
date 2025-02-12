@@ -750,7 +750,7 @@ button {
   color: #614D49;
   text-transform: none;
   flex-flow: row nowrap;
-  display: ruby;
+  display: flex;
 }
 
 .form_polit a {
